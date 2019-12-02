@@ -18,5 +18,8 @@
   "homepage": "https://github.com/AlexandrBerbat/lab5#readme",
   "dependencies": {
     "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
   }
 }

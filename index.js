@@ -6,7 +6,7 @@ const fs = require("fs");
 const server = http.createServer((req, response) => {
  response.statusCode = 200
  response.setHeader("Content-Type", "text/html")
- fs.readFile("./Laba12.html", null, (error, data) => {
+ fs.readFile("Laba12.html", null, (error, data) => {
   if (error) {
     response.writeHead(404);
     response.write("Whoops! File not found!");

@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "node index.js",
+    "test": "mocha test",
+
+    "your-own-script": "echo npm"
+   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlexandrBerbat/lab5.git"
@@ -21,7 +24,7 @@
   },
   "devDependencies": {
     "eslint": "^6.7.2",
-    "husky": "^3.1.0",
     "prettier": "^1.19.1"
   }
+
 }

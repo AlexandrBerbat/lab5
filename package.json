@@ -6,9 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "mocha test",
-
     "your-own-script": "echo npm"
-   },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlexandrBerbat/lab5.git"
@@ -26,5 +25,4 @@
     "eslint": "^6.7.2",
     "prettier": "^1.19.1"
   }
-
 }
